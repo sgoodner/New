@@ -1,0 +1,33 @@
+body 
+		{
+			color: yellow;
+			background-color: black;
+			font-size: 10pt;
+			font-family: Arial;  
+			text-align: left;
+		}
+
+		div { background-color:black; text-align:left; margin:0 auto; }
+		
+		h2 { color: yellow; font-size: 14pt; } 
+		h3 { color: yellow; font-size: 13pt; }
+		
+		p { color: yellow; font-size: 10pt; }
+		
+		h1 { font-style:italic; font-weight:bold; }
+		
+		ul { color: yellow; font-size: 10pt; }
+		
+		a { text-decoration:none; }
+		a:link, a:visited { color:green; }
+		a:hover, a:active { text-decoration:underline; color:pink; }
+		
+		ul#navlist{list-style-type:none; margin: 0px; padding: 0px; }
+
+		#navlist li{ display:block; float:left; font-weight:bold; text-align:center; font-variant:small-caps; }
+
+		#navlist a { padding: 10px 10px; }
+
+		#navlist a:link, #navlist a:visited { color: #090909; background-color: #E0F708; text-decoration: none; }
+
+		#navlist a:hover { color: #E0F708; background-color: #090909; text-decoration: none; }
